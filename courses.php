@@ -45,7 +45,7 @@
       $fields[] = $row;
   }
   $data['fields'] = $fields;
-
+  $result->close();
 
   $result = $mysqli->query(
     "SELECT applicationid, field_id, value
