@@ -1,0 +1,19 @@
+# OSG Seminar manager read-only REST API
+
+
+## Installation
+
+Copy as is to a webserver directory with access to the mysql database.
+
+## Configuration
+
+In the header of courses.php configure
+
+* user
+* password
+* database
+* table prefix
+
+## Usage
+
+Call GET on courses.php to receive a JSON of your courses, applications, and user defined fields and their values.
